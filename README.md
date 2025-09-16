@@ -34,24 +34,24 @@ The project focuses on automating diseased silkworm detection using image segmen
 
 🚀 Organize your dataset as follows:
 
-dataset/
- ├── train/images/
- │    ├── image_1.png
- │    ├── image_2.png
- │    └── ...
- └── train/masks/
-      ├── image_1_mask.png
-      ├── image_2_mask.png
-      └── ...
-├── val/images/
- │    ├── image_3.png
- │    ├── image_4.png
- │    └── ...
- └── val/masks/
-      ├── image_3_mask.png
-      ├── image_4_mask.png
-      └── ...   
+datasets/
 
+ ├── images/
+ 
+ │    ├── image_1.png
+ 
+ │    ├── image_2.png
+ 
+ │    └── ...
+ 
+ └── masks/
+ 
+      ├── image_1_mask.png
+      
+      ├── image_2_mask.png
+      
+      └── ...
+      
 📊 Results
 
 Pixel Accuracy: 95.59%

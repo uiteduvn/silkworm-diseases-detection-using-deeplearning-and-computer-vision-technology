@@ -9,16 +9,27 @@ The project focuses on automating diseased silkworm detection using image segmen
 ### Repository Structure
 
 ├── datasets/   You can download the dataset from https://drive.google.com/drive/folders/1Y_fTj0Mp3nc8Z-zj9HGJFXKFfOZgMiuE?usp=drive_link
+
 ├── models/ You can download the model from https://drive.google.com/drive/folders/1Y_fTj0Mp3nc8Z-zj9HGJFXKFfOZgMiuE?usp=drive_link
+
 ├── src/
+
 │   ├── build_and_evaluate_model.ipynb
+
 │   ├── train.py
+
 │   ├── dataloader.py
+
 │   ├── model.py
+
 │   ├── inference.py
+
 │   ├── utils.py
+
 │   └── demo.py
+
 ├── requirements.txt
+
 └── README.md 
 
 🚀 Organize your dataset as follows:
